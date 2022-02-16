@@ -14,13 +14,6 @@ namespace ConsoleApplication4
         static void Main(string[] args)
         {
 
-            /*
-            Console.WriteLine("Available Ports:");
-            foreach (string s in SerialPort.GetPortNames()) // Смотрим, какие СОМ порты доступны
-            {
-                Console.WriteLine("   {0}", s); 
-            }
-            */
             string portName = "COM" + portNumSetup(); // Запрашиваем и устанавливаем номер порта СОМ
 
             Console.WriteLine("Available IO speeds for {0} : 1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200", portName);

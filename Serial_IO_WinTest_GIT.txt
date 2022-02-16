@@ -1,0 +1,2 @@
+﻿Открытие репозиториев:
+C:\Users\dans\Nextcloud\Projects\C#\Serial_IO_WinTest
